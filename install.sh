@@ -12,4 +12,4 @@ if [ -e /tmp/wordpress-tests-lib ]; then
     rm -fr /tmp/wordpress-tests-lib
 fi
 
-bash $(wp --info --format=json | jq -r '.wp_cli_dir_path')/templates/install-wp-tests.sh wordpress_test root '' localhost latest;
+bash bin/install-wp-tests.sh wordpress_test root '' localhost latest;
