@@ -28,4 +28,4 @@ if [ -e /tmp/wordpress-tests-lib ]; then
     rm -fr /tmp/wordpress-tests-lib
 fi
 
-bash bin/install-wp-tests.sh ${DB_NAME} ${DB_USER} ${DB_PASS} ${DB_HOST} ${WP_VERSION};
+bash bin/install-wp-tests.sh "${DB_NAME}" "${DB_USER}" "${DB_PASS}" "${DB_HOST}" "${WP_VERSION}";
